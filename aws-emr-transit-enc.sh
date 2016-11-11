@@ -27,7 +27,7 @@ author="Dan R. Mbanga"
 ORGANIZATION="danulab"
 DOMAIN="danulab.com"
 AWS_BUCKET="danulab.com"
-S3_CERTS_KEY="sec-artifacts/tls/${ORG}-certs.zip"
+S3_CERTS_KEY="sec-artifacts/tls/${ORGANIZATION}-certs.zip"
 S3_OBJECT="s3://${AWS_BUCKET}/${S3_CERTS_KEY}"
 
 ################################
