@@ -292,7 +292,7 @@ function create_emr_cluster()
         create-cluster \
         --termination-protected \
         --applications Name=Hadoop Name=Hive Name=Pig Name=Hue Name=Spark Name=Zeppelin Name=Ganglia Name=Tez Name=Oozie Name=Mahout Name=Presto Name=ZooKeeper \
-        --tags 'env=dev' 'customer=Fidelity' \
+        --tags 'env=dev' \
         --ec2-attributes '{"KeyName":"<YOUR KEY NAME>","InstanceProfile":"EMR_EC2_DefaultRole" }' \
         --service-role EMR_DefaultRole \
         --security-configuration 'transitOnly' \
