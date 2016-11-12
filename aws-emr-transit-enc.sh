@@ -23,11 +23,9 @@ set -o errexit
 
 
 #### Vars ####
-Idver=1.0
-author="Dan R. Mbanga"
-ORGANIZATION="danulab"
-DOMAIN="danulab.com"
-AWS_BUCKET="danulab.com"
+ORGANIZATION="YOUR ORGANIZATION"
+DOMAIN="<YOUR DOMAIN>"
+AWS_BUCKET="YOUR S3 BUCKET"
 S3_CERTS_KEY="sec-artifacts/tls/${ORGANIZATION}-certs.zip"
 S3_OBJECT="s3://${AWS_BUCKET}/${S3_CERTS_KEY}"
 
